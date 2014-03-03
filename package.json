@@ -6,6 +6,10 @@
     "name": "Stéphane Bachelier",
     "email": "<stephane.bachelier@gmail.com>"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephanebachelier/backbone-injector.git"
+  },
   "description": "A really simple dependency injection based on Backbone.Wreqr.RequestResponse",
   "keywords": [
     "backbone",
@@ -27,6 +31,8 @@
     "jshint-stylish": "~0.1.5",
     "load-grunt-tasks": "~0.4.0",
     "load-grunt-config": "~0.7.1",
-    "glob": "~3.2.9"
+    "glob": "~3.2.9",
+    "grunt-release-it": "~0.1.1",
+    "grunt-conventional-changelog": "~1.1.0"
   }
 }
