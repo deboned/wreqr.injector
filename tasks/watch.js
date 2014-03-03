@@ -4,10 +4,10 @@
 module.exports = {
   grunt: {
     files: '<%= jshint.grunt.src %>',
-    tasks: ['jshint:grunt']
+    tasks: ['jshint:grunt', 'jscs:grunt']
   },
   lib: {
     files: '<%= jshint.lib.src %>',
-    tasks: ['jshint:lib']
+    tasks: ['jshint:lib', 'jscs:lib']
   }
 };
