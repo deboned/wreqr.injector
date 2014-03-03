@@ -33,6 +33,7 @@
     "load-grunt-config": "~0.7.1",
     "glob": "~3.2.9",
     "grunt-release-it": "~0.1.1",
-    "grunt-conventional-changelog": "~1.1.0"
+    "grunt-conventional-changelog": "~1.1.0",
+    "grunt-docco": "~0.3.3"
   }
 }
