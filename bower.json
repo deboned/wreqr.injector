@@ -1,0 +1,26 @@
+{
+  "name": "backbone-injector",
+  "main": "index.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/stephanebachelier/backbone-injector",
+  "authors": [
+    "Stéphane Bachelier <stephane.bachelier@gmail.com>"
+  ],
+  "description": "A really simple dependency injection based on Backbone.Wreqr.RequestResponse",
+  "keywords": [
+    "backbone",
+    "dependency",
+    "injector"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone.wreqr": "~1.0.0"
+  }
+}
