@@ -9,5 +9,9 @@ module.exports = {
   dist: {
     src: ['lib/<%= pkg.name %>.js'],
     dest: 'dist/<%= pkg.name %>.js'
+  },
+  umd: {
+    src: ['dist/<%= pkg.name %>.umd.js'],
+    dest: 'dist/<%= pkg.name %>.umd.js'
   }
 };

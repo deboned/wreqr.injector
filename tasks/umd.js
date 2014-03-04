@@ -9,10 +9,10 @@ module.exports = {
     objectToExport: 'Backbone.Injector',
     indent: '    ',
     deps: {
-      default: ['backbone, backbone.wreqr'],
-      amd: ['backbone, backbone.wreqr'],
-      cjs: ['backbone, backbone.wreqr'],
-      global: ['backbone, backbone.wreqr']
+      default: ['Backbone', 'Wreqr'],
+      amd: ['backbone', 'backbone.wreqr'],
+      cjs: ['backbone', 'backbone.wreqr'],
+      global: ['backbone', 'backbone.wreqr']
     }
   }
 };
