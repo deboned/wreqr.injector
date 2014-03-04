@@ -34,6 +34,8 @@
     "glob": "~3.2.9",
     "grunt-release-it": "~0.1.1",
     "grunt-conventional-changelog": "~1.1.0",
-    "grunt-docco": "~0.3.3"
+    "grunt-docco": "~0.3.3",
+    "mocha": "~1.17.1",
+    "mocha-phantomjs": "~3.3.2"
   }
 }

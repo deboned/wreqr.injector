@@ -6,5 +6,6 @@ module.exports = {
     config: '.jscs.json'
   },
   lib: ['lib/{,*/}*.js'],
-  grunt: ['<%= jshint.grunt.src %>']
+  grunt: ['<%= jshint.grunt.src %>'],
+  test: ['test/spec/{,*/}*.js']
 };
