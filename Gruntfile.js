@@ -48,7 +48,4 @@ module.exports = function (grunt) {
     init: false,
     config: config
   });
-
-  // Default task.
-  grunt.registerTask('default', ['jshint', 'jscs', 'umd', 'concat', 'uglify']);
 };
