@@ -1,4 +1,4 @@
-/*! backbone-injector - v0.1.0 - 2014-03-03
+/*! backbone-injector - v0.1.1 - 2014-03-04
  * 
  * Copyright (c) 2014 Stéphane Bachelier
  * Distributed under MIT LICENSE 
@@ -10,14 +10,11 @@
 // This module enable more decoupling by permitting to request or set a
 // resource.
 // It is built on top of `Wreqr.RequestResponse`.
-define([
-  'backbone.wreqr'
-],
 
-function (Wreqr) {
+(function (Backbone, Wreqr) {
   'use strict';
 
-  var DepInjector = Wreqr.RequestResponse.extend({
+  Backbone.Injector = Wreqr.RequestResponse.extend({
     // get
     // ---
     // Enable any component to get a resource value by passing a name
@@ -65,5 +62,6 @@ function (Wreqr) {
     }
   });
 
-  return new DepInjector(Wreqr);
-});
+  return Backbone.Injector;
+
+}).call(null, Backbone, Backbone.Wreqr);
