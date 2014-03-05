@@ -37,6 +37,8 @@
     "grunt-conventional-changelog": "~1.1.0",
     "grunt-docco": "~0.3.3",
     "mocha": "~1.17.1",
-    "mocha-phantomjs": "~3.3.2"
+    "mocha-phantomjs": "~3.3.2",
+    "grunt-umd": "~1.6.2",
+    "grunt-contrib-clean": "~0.5.0"
   }
 }

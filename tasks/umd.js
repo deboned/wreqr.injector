@@ -6,13 +6,13 @@ module.exports = {
     src: ['lib/<%= pkg.name %>.js'],
     dest: 'dist/<%= pkg.name %>.umd.js',
     amdModuleId: '<%= pkg.name %>',
-    objectToExport: 'Backbone.Injector',
+    objectToExport: 'Backbone.Wreqr.Injector',
     indent: '    ',
     deps: {
-      default: ['Backbone', 'Wreqr'],
-      amd: ['backbone', 'backbone.wreqr'],
-      cjs: ['backbone', 'backbone.wreqr'],
-      global: ['backbone', 'backbone.wreqr']
+      default: ['Wreqr'],
+      amd: ['backbone.wreqr'],
+      cjs: ['backbone.wreqr'],
+      global: ['Backbone.Wreqr']
     }
   }
 };
