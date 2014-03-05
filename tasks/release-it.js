@@ -3,11 +3,11 @@
 
 module.exports = {
   options: {
+    pkgFiles: ['package.json', 'bower.json'],
     commitMessage: 'bump version %s',
     tagName: '%s',
     tagAnnotation: 'Release %s',
-    distRepo: 'git://github.com/stephanebachelier/backbone-injector.git',
-    publish: true,
+    publish: false,
     buildCommand: 'grunt changelog'
   }
 };

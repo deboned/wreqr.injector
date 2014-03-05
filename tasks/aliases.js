@@ -1,5 +1,7 @@
 module.exports = {
   release: [
+    'clean',
+    'build',
     'release-it'
   ],
   build: [
