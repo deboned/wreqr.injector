@@ -1,18 +1,19 @@
 {
-  "name": "backbone-injector",
+  "name": "wreqr.injector",
   "version": "0.1.2",
-  "homepage": "https://github.com/stephanebachelier/backbone-injector",
+  "homepage": "https://github.com/stephanebachelier/wreqr.injector",
   "author": {
     "name": "Stéphane Bachelier",
     "email": "<stephane.bachelier@gmail.com>"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stephanebachelier/backbone-injector.git"
+    "url": "git://github.com/stephanebachelier/wreqr.injector.git"
   },
   "description": "A really simple dependency injection based on Backbone.Wreqr.RequestResponse",
   "keywords": [
     "backbone",
+    "marionette",
     "dependency",
     "injector"
   ],
@@ -36,7 +37,6 @@
     "grunt-conventional-changelog": "~1.1.0",
     "grunt-docco": "~0.3.3",
     "mocha": "~1.17.1",
-    "mocha-phantomjs": "~3.3.2",
-    "grunt-umd": "~1.6.2"
+    "mocha-phantomjs": "~3.3.2"
   }
 }
