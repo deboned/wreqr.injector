@@ -5,8 +5,7 @@ module.exports = {
   lib: {
     src: ['lib/<%= pkg.name %>.js'],
     dest: 'dist/<%= pkg.name %>.umd.js',
-    amdModuleId: '<%= pkg.name %>',
-    objectToExport: 'Backbone.Wreqr.Injector',
+    objectToExport: 'Wreqr.Injector',
     indent: '    ',
     deps: {
       default: ['Wreqr'],
