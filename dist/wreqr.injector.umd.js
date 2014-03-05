@@ -10,10 +10,10 @@
         module.exports = factory(require('backbone.wreqr'));
     }
     else if(typeof define === 'function' && define.amd) {
-        define('wreqr.injector', ['backbone.wreqr'], factory);
+        define(['backbone.wreqr'], factory);
     }
     else {
-        root['Backbone.Wreqr.Injector'] = factory(root.Backbone.Wreqr);
+        root['Wreqr.Injector'] = factory(root.Backbone.Wreqr);
     }
 }(this, function(Wreqr) {
 
@@ -25,10 +25,10 @@
     // resource.
     // It is built on top of `Wreqr.RequestResponse`.
     
-    (function (Wreqr) {
+    var Injector = (function (Wreqr) {
       'use strict';
     
-      var Injector = Wreqr.RequestResponse.extend({
+      return Wreqr.RequestResponse.extend({
     
         // get
         // ---
@@ -76,14 +76,12 @@
           };
         }
       });
-    
-      Wreqr.Injector = Injector;
-    
-      return Injector;
-    
     })(Backbone.Wreqr);
     
+    // export it
+    Backbone.Wreqr.Injector = Injector;
+    
 
-    return Backbone.Wreqr.Injector;
+    return Wreqr.Injector;
 
 }));

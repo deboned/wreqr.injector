@@ -11,10 +11,10 @@
 // resource.
 // It is built on top of `Wreqr.RequestResponse`.
 
-(function (Wreqr) {
+var Injector = (function (Wreqr) {
   'use strict';
 
-  var Injector = Wreqr.RequestResponse.extend({
+  return Wreqr.RequestResponse.extend({
 
     // get
     // ---
@@ -62,9 +62,7 @@
       };
     }
   });
-
-  Wreqr.Injector = Injector;
-
-  return Injector;
-
 })(Backbone.Wreqr);
+
+// export it
+Backbone.Wreqr.Injector = Injector;
