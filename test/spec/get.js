@@ -6,7 +6,7 @@ describe('get', function () {
     name: 'tobi',
     type: 'furet'
   };
-  var depInjector = new Backbone.Injector();
+  var depInjector = new Backbone.Wreqr.Injector();
 
   afterEach(function () {
     depInjector.removeAllHandlers();

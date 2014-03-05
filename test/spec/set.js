@@ -8,7 +8,7 @@ describe('set', function () {
     type: 'furet'
   };
 
-  var depInjector = new Backbone.Injector();
+  var depInjector = new Backbone.Wreqr.Injector();
 
   afterEach(function () {
     depInjector.removeAllHandlers();
