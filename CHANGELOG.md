@@ -1,3 +1,18 @@
+<a name="0.1.3"></a>
+### 0.2.0 (2014-03-05)
+
+
+#### Features
+
+* **attachment:** change injector attachment ([be1aee58](http://github.com/stephanebachelier/wreqr.injector/commit/be1aee58c1ce9414af4de74c1713d15a1cd8234d))
+
+
+#### Breaking Changes
+
+* injector is now attached to Wreqr instead of Backbone
+ ([be1aee58](http://github.com/stephanebachelier/wreqr.injector/commit/be1aee58c1ce9414af4de74c1713d15a1cd8234d))
+
+
 <a name="0.1.2"></a>
 ### 0.1.2 (2014-03-04)
 
