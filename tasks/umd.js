@@ -4,7 +4,7 @@
 module.exports = {
   lib: {
     src: ['lib/<%= pkg.name %>.js'],
-    dest: 'dist/<%= pkg.name %>.umd.js',
+    dest: 'dist/<%= pkg.name %>.js',
     objectToExport: 'Wreqr.Injector',
     indent: '    ',
     deps: {

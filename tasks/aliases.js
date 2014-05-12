@@ -11,5 +11,9 @@ module.exports = {
     'concat',
     'uglify'
   ],
+  distro: [
+    'build',
+    'changelog'
+  ],
   default: ['build']
 };

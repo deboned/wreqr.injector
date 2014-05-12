@@ -7,11 +7,7 @@ module.exports = {
     stripBanners: true
   },
   dist: {
-    src: ['lib/<%= pkg.name %>.js'],
+    src: ['dist/<%= pkg.name %>.js'],
     dest: 'dist/<%= pkg.name %>.js'
-  },
-  umd: {
-    src: ['dist/<%= pkg.name %>.umd.js'],
-    dest: 'dist/<%= pkg.name %>.umd.js'
   }
 };

@@ -8,6 +8,6 @@ module.exports = {
     tagName: '%s',
     tagAnnotation: 'Release %s',
     publish: false,
-    buildCommand: 'grunt changelog'
+    buildCommand: 'grunt distro'
   }
 };
