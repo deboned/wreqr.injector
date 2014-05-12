@@ -1,7 +1,7 @@
 {
   "name": "wreqr.injector",
   "main": "dist/wreqr.injector.js",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "homepage": "https://github.com/stephanebachelier/wreqr.injector",
   "authors": [
     "Stéphane Bachelier <stephane.bachelier@gmail.com>"

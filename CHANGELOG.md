@@ -1,3 +1,8 @@
+<a name="0.3.0"></a>
+## 0.3.0 (2014-05-12)
+
+* now ship only an unique UMD version
+
 <a name="0.2.3"></a>
 ### 0.2.3 (2014-05-12)
 
