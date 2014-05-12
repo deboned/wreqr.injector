@@ -1,4 +1,4 @@
-/*! wreqr.injector - v0.2.1 - 2014-03-05
+/*! wreqr.injector - v0.2.2 - 2014-05-12
  * 
  * Copyright (c) 2014 Stéphane Bachelier
  * Distributed under MIT LICENSE 

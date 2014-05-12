@@ -1,3 +1,8 @@
+<a name="0.2.3"></a>
+### 0.2.3 (2014-05-12)
+
+* change wreqr dependency to 1.x.x (use ^ instead of ~)
+
 <a name="0.2.2"></a>
 ### 0.2.2 (2014-03-05)
 
